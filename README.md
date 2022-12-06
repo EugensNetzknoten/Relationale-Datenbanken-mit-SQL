@@ -51,14 +51,56 @@ Varianten der Überweisung für die Prozedur [sp_Ueberweisung]
 <table>
     <thead>
         <tr>
-         <td colspan="3">Three</td>
+         <td colspan="2">Varianten der Überweisung für die Prozedur [sp_Ueberweisung]</td>
+        </tr>
+    </thead>
+    <tbody>
+      <tr><td>
+            <tr>
+                <th>Varianten</th>
+                <th>Konto_ID</th>
+                <th>Geldfluss</th>
+                <th>IBAN</th>
+            </tr>       
+              
+      | Varianten | Konto_ID | Geldfluss | IBAN           |
+      |-----------|----------|-----------|----------------|
+      | 1         | Kunde‐A  |    -->       | Fremde‐Bank |
+      | 2         | Kunde‐A  |    <--       | Fremde‐Bank |
+      | | <td rowspan=2>3</td>         | Kunde‐A  |    -->       | Kunde‐B     |
+      | |   | Kunde‐B  |    <--       | Kunde‐A     |
+
+
+      </td><td>
+
+      | Beispiel | 
+      |----------|
+      | -100,00€ |
+      | 75,00€   |
+      | -250,00€ |
+      | 250,00€  |
+
+      </td></tr>
+    </tbody>
+</table>
+
+
+
+
+
+
+<table>
+    <thead>
+        <tr>
+          <th colspan="2">Varianten der Überweisung für die Prozedur [sp_Ueberweisung]</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td rowspan=4>L1 Name</td>
-            <td rowspan=2>L2 Name A</td>
-            <td>L3 Name A</td>
+            <td>1</td>
+            <td>Kunde‐A</td>
+            <td>-->/td>
+            <td>Fremde‐Bank/td>
         </tr>
         <tr>
             <td>L3 Name B</td>
@@ -68,25 +110,7 @@ Varianten der Überweisung für die Prozedur [sp_Ueberweisung]
             <td>L3 Name C</td>
         </tr>
         <tr>
-          <td>
-                   <tbody>
-                       <tr>
-                           <td rowspan=4>L1 Name</td>
-                           <td rowspan=2>L2 Name A</td>
-                           <td>L3 Name A</td>
-                       </tr>
-                       <tr>
-                           <td>L3 Name B</td>
-                       </tr>
-                       <tr>
-                           <td rowspan=2>L2 Name B</td>
-                           <td>L3 Name C</td>
-                       </tr>
-                       <tr>
-                           <td>L3 Name D</td>
-                       </tr>
-                   </tbody>
-           </td>
+            <td>L3 Name D</td>
         </tr>
     </tbody>
 </table>
