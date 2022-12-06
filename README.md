@@ -67,3 +67,14 @@ Varianten der Überweisung für die Prozedur [sp_Ueberweisung]
         </tr>
     </tbody>
 </table>
+
+
+<table>
+  <tr>
+    <td>One</td>
+    <td>Two</td>
+  </tr>
+  <tr>
+    <td colspan="2">Three</td>
+  </tr>
+</table>
