@@ -159,7 +159,7 @@ Varianten der Überweisung für die Prozedur [sp_Ueberweisung]
            <tr>
                <td>1</td>
                <td>Kunde‐A</td>
-               <td>&#10230;</td>
+               <td class='alnright'>X</td>
                <td>Fremde‐Bank</td>
            </tr>
            <tr>
@@ -188,18 +188,18 @@ Varianten der Überweisung für die Prozedur [sp_Ueberweisung]
                <th>Beispiel</th>
            </tr>
        </thead>    
-       <tbody>
+       <tbody align="right">
            <tr>
-               <td>-100,00€</td>
+               <td>-100,00 €</td>
            </tr>
            <tr>
-               <td>75,00€</td>
+               <td>75,00 € </td>
            </tr>
            <tr>
-               <td>-250,00€</td>
+               <td>-250,00 €</td>
            </tr>
            <tr>
-               <td><div style="text-align: right"> your-text-here </div></td>
+               <td> 250,00 € </td>
            </tr>    
        </tbody>
    </table>
