@@ -80,5 +80,5 @@
 
 # To-Do
 
-je nach Bonität den Dispokredit(Limit) vergeben
+* je nach Bonität den Limit[KontoStandErlaubt] vergeben
 
