@@ -179,10 +179,9 @@ Varianten der Überweisung für die Prozedur [sp_Ueberweisung]
        </tbody>
    </table>
 </td><td>
-      | Beispiel | 
-      |----------|
-      | -100,00€ |
-      | 75,00€   |
-      | -250,00€ |
-      | 250,00€  |
+
+|b|1|2|3| 
+|--|--|--|--|
+|a|s|d|f|
+
 </td></tr> </table>
