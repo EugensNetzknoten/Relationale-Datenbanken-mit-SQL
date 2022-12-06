@@ -15,22 +15,8 @@
 Varianten der Überweisung für die Prozedur [sp_Ueberweisung]
 
 | Varianten | Konto_ID | Geldfluss | IBAN        |     |sdfdf|
-|-----------|----------|-----------|-------------|
-| 1         | Kunde‐A  |    -->       | Fremde‐Bank |
-| 2         | Kunde‐A  |    <--       | Fremde‐Bank |
-| 3         | Kunde‐A  |    -->       | Kunde‐B     |
-|           | Kunde‐B  |    <--       | Kunde‐A     |
-| push        | pushen             | schieben              |
-| clone       | clonen             | nachmachen            |
-| fetch       | fetchen            | holen                 |
-| branch      | branchen           | abzweigen             |
-| commit      | commiten           | einbuchen             |
-| rebase      | rebasen            | (neu) erden           |
-| diff        | diffen             | unterscheiden         |
-| merge       | mergen             | zusammenführen        |
-| fork        | forken             | abzweigen             |
-| stash       | stashen            | verstauen             |
-| tag         | taggen             | markieren             |
-| cherry-pick | cherry-picken      | Rosinen herauspicken  |
-| checkout    | checkouten         | ausbuchen             |
-| squash      | squashen           | quetschen             |
+|-----------|----------|-----------|-------------|     | schieben              |
+| 1         | Kunde‐A  |    -->       | Fremde‐Bank |  | schieben              |
+| 2         | Kunde‐A  |    <--       | Fremde‐Bank |  | schieben              |
+| 3         | Kunde‐A  |    -->       | Kunde‐B     |  | schieben              |
+|           | Kunde‐B  |    <--       | Kunde‐A     |  | schieben              |
