@@ -99,18 +99,25 @@ Varianten der Überweisung für die Prozedur [sp_Ueberweisung]
         <tr>
             <td>1</td>
             <td>Kunde‐A</td>
-            <td>--/td>
+            <td>--</td>
             <td>Fremde‐Bank/td>
         </tr>
         <tr>
-            <td>L3 Name B</td>
+            <td>2</td>
+            <td>Kunde‐A</td>
+            <td>--</td>
+            <td>Fremde‐Bank/td>
         </tr>
         <tr>
-            <td rowspan=2>L2 Name B</td>
-            <td>L3 Name C</td>
+            <td rowspan=2>3</td>
+            <td>Kunde‐A</td>
+            <td>--</td>
+            <td>Kunde‐B</td>
         </tr>
         <tr>
-            <td>L3 Name D</td>
+            <td>Kunde‐B</td>
+            <td>--</td>
+            <td>Kunde‐A</td>
         </tr>
     </tbody>
 </table>
