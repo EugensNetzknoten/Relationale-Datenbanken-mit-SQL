@@ -14,12 +14,12 @@
 
 Varianten der Überweisung für die Prozedur [sp_Ueberweisung]
 
-| Varianten | Konto_ID | Geldfluss | IBAN        |
+| Varianten | Konto_ID | Geldfluss | IBAN        |     |sdfdf|
 |-----------|----------|-----------|-------------|
-| 1         | Kunde‐A  | -->       | Fremde‐Bank |
-| 2         | Kunde‐A  | <--       | Fremde‐Bank |
-| 3         | Kunde‐A  | -->       | Kunde‐B     |
-|           | Kunde‐B  | <--       | Kunde‐A     |
+| 1         | Kunde‐A  |    -->       | Fremde‐Bank |
+| 2         | Kunde‐A  |    <--       | Fremde‐Bank |
+| 3         | Kunde‐A  |    -->       | Kunde‐B     |
+|           | Kunde‐B  |    <--       | Kunde‐A     |
 | push        | pushen             | schieben              |
 | clone       | clonen             | nachmachen            |
 | fetch       | fetchen            | holen                 |
