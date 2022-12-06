@@ -12,14 +12,14 @@
   * Konten werden in einem Intervall (Tabelle [KontArt]) mit verschiedenen KostenArten und je nach Bonität belastet.
 
 
-Es folgen zwei Tabellen mit Vorschlägen für den täglichen Gebrauch.
+Varianten der Überweisung für die Prozedur [sp_Ueberweisung]
 
-| Verb        | Aktueller Gebrauch | Vorschlag             |
-|-------------|--------------------|-----------------------|
-| init        | initten            | eröffnen              |
-| add         | adden              | hinzufügen            |
-| blame       | blamen             | beschuldigen          |
-| pull        | pullen             | ziehen                |
+| Varianten | Konto_ID | Geldfluss | IBAN        |
+|-----------|----------|-----------|-------------|
+| 1         | Kunde‐A  | -->       | Fremde‐Bank |
+| 2         | Kunde‐A  | <--       | Fremde‐Bank |
+| 3         | Kunde‐A  | -->       | Kunde‐B     |
+|           | Kunde‐B  | <--       | Kunde‐A     |
 | push        | pushen             | schieben              |
 | clone       | clonen             | nachmachen            |
 | fetch       | fetchen            | holen                 |
