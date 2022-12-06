@@ -199,7 +199,7 @@ Varianten der Überweisung für die Prozedur [sp_Ueberweisung]
                <td>-250,00€</td>
            </tr>
            <tr>
-               <div style="text-align: right"> your-text-here </div>
+               <td><div style="text-align: right"> your-text-here </div></td>
            </tr>    
        </tbody>
    </table>
