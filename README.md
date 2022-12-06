@@ -144,44 +144,63 @@ Varianten der Überweisung für die Prozedur [sp_Ueberweisung]
 
 
 <table>
-<tr><th>Table 1 Heading 1 </th><th>Table 1 Heading 2</th></tr>
+<tr><th colspan="2">Varianten der Überweisung für die Prozedur [sp_Ueberweisung]</th></tr>
 <tr><td>
    <table>
        <thead>
            <tr>
-             <th colspan="2">Varianten der Überweisung für die Prozedur [sp_Ueberweisung]</th>
-           </tr>
+               <th>Varianten</th>
+               <th>Konto_ID</th>
+               <th>Geldfluss</th>
+               <th>IBAN</th>           
+           </tr>        
        </thead>
        <tbody>
            <tr>
                <td>1</td>
                <td>Kunde‐A</td>
-               <td>--</td>
+               <td>&#8594;</td>
                <td>Fremde‐Bank</td>
            </tr>
            <tr>
                <td>2</td>
                <td>Kunde‐A</td>
-               <td>--</td>
+               <td>&#10230;</td>
                <td>Fremde‐Bank</td>
            </tr>
            <tr>
                <td rowspan=2>3</td>
                <td>Kunde‐A</td>
-               <td>--</td>
+               <td>&#10132;</td>
                <td>Kunde‐B</td>
            </tr>
            <tr>
                <td>Kunde‐B</td>
-               <td>--</td>
+               <td>&#129046;</td>
                <td>Kunde‐A</td>
            </tr>    
        </tbody>
    </table>
 </td><td>
-
-|b|1|2|3| 
-|--|--|--|--|
-|a|s|d|f|
-
+   <table>
+       <thead>
+           <tr>
+               <th>Beispiel</th>
+           </tr>
+       </thead>    
+       <tbody>
+           <tr>
+               <td>-100,00€</td>
+           </tr>
+           <tr>
+               <td>75,00€</td>
+           </tr>
+           <tr>
+               <td>-250,00€</td>
+           </tr>
+           <tr>
+               <td>250,00€</td>
+           </tr>    
+       </tbody>
+   </table>
 </td></tr> </table>
