@@ -99,7 +99,7 @@ Varianten der Überweisung für die Prozedur [sp_Ueberweisung]
         <tr>
             <td>1</td>
             <td>Kunde‐A</td>
-            <td>-->/td>
+            <td>--/td>
             <td>Fremde‐Bank/td>
         </tr>
         <tr>
