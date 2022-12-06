@@ -77,3 +77,8 @@
        </tbody>
    </table>
 </td></tr> </table>
+
+# To-Do
+
+je nach Bonität den Dispokredit(Limit) vergeben
+
