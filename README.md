@@ -18,8 +18,7 @@
 ## Varianten der Überweisung für die Prozedur [sp_Ueberweisung]
 
 <table>
-<tr><th colspan="2">Varianten der Überweisung für die Prozedur [sp_Ueberweisung]</th></tr>
-<tr><td>
+<td>
    <table>
        <thead>
            <tr>
