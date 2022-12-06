@@ -5,7 +5,7 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 -- =============================================
--- Author:		Eugen Gromow
+-- Author:		EugensNetzknoten
 -- Create date: 30.08.2022
 -- Description:	
 -- =============================================

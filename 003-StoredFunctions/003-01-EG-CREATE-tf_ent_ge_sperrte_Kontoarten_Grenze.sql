@@ -5,7 +5,7 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 -- =============================================
--- Author:	Eugen ...
+-- Author:		EugensNetzknoten
 -- Create date: 30.08.2022
 -- Description:	entsperrte oder gesperrte Kontoarten unter gewissem KontoStand
 -- =============================================
