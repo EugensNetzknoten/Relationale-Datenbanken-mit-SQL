@@ -5,8 +5,8 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 -- =============================================
--- Author:		Eugen Gromow
--- Create date: 30.08.2022
+-- Author:
+-- Create date:
 -- Description:	
 -- =============================================
 CREATE OR ALTER TRIGGER  [tr_UeberweisungINSERT]
