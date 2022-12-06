@@ -14,9 +14,9 @@
 
 Varianten der Überweisung für die Prozedur [sp_Ueberweisung]
 
-| Varianten | Konto_ID | Geldfluss | IBAN        |     |sdfdf|
-|-----------|----------|-----------|-------------|     | schieben              |
-| 1         | Kunde‐A  |    -->       | Fremde‐Bank |  | schieben              |
-| 2         | Kunde‐A  |    <--       | Fremde‐Bank |  | schieben              |
-| 3         | Kunde‐A  |    -->       | Kunde‐B     |  | schieben              |
-|           | Kunde‐B  |    <--       | Kunde‐A     |  | schieben              |
+| Varianten | Konto_ID | Geldfluss | IBAN        |   s  | sdfdf |
+|-----------|----------|-----------|-------------|   s  | schieben              |
+| 1         | Kunde‐A  |    -->       | Fremde‐Bank | s | schieben              |
+| 2         | Kunde‐A  |    <--       | Fremde‐Bank |  s | schieben              |
+| 3         | Kunde‐A  |    -->       | Kunde‐B     | s  | schieben              |
+|           | Kunde‐B  |    <--       | Kunde‐A     |  s | schieben              |
