@@ -14,8 +14,8 @@
 
 Varianten der Überweisung für die Prozedur [sp_Ueberweisung]
 
-| Varianten | Konto_ID | Geldfluss | IBAN        |   s  | sdfdf |
-|-----------|----------|-----------|-------------|------------| -------------| 
+| Varianten | Konto_ID | Geldfluss | IBAN           |   s  | sdfdf |
+|-----------|----------|-----------|----------------|------------| -------------| 
 | 1         | Kunde‐A  |    -->       | Fremde‐Bank | s | schieben              |
 | 2         | Kunde‐A  |    <--       | Fremde‐Bank |  s | schieben              |
 | 3         | Kunde‐A  |    -->       | Kunde‐B     | s  | schieben              |
@@ -23,20 +23,27 @@ Varianten der Überweisung für die Prozedur [sp_Ueberweisung]
 
 
 
-<table> sdfsd
-<tr>sdfsdf<th>Table 1 Heading 1 Table 1 Heading 2</th></tr>
+<table>
+<tr><td colspan="2">Varianten der Überweisung für die Prozedur [sp_Ueberweisung]</td></tr>
 <tr><td>
 
-|Table 1| Middle | Table 2|
-|--|--|--|
-|a| not b|and c |
-
+| Varianten | Konto_ID | Geldfluss | IBAN           |
+|-----------|----------|-----------|----------------|
+| 1         | Kunde‐A  |    -->       | Fremde‐Bank |
+| 2         | Kunde‐A  |    <--       | Fremde‐Bank |
+| | <td rowspan=2>3</td>         | Kunde‐A  |    -->       | Kunde‐B     |
+| |   | Kunde‐B  |    <--       | Kunde‐A     |
+             
+    
 </td><td>
 
-|b|1|2|3| 
-|--|--|--|--|
-|a|s|d|f|
-
+| Beispiel | 
+|----------|
+| -100,00€ |
+| 75,00€   |
+| -250,00€ |
+| 250,00€  |
+ 
 </td></tr> </table>
 
 
@@ -44,9 +51,7 @@ Varianten der Überweisung für die Prozedur [sp_Ueberweisung]
 <table>
     <thead>
         <tr>
-            <th>Layer 1</th>
-            <th>Layer 2</th>
-            <th>Layer 3</th>
+         <td colspan="3">Three</td>
         </tr>
     </thead>
     <tbody>
@@ -66,15 +71,21 @@ Varianten der Überweisung für die Prozedur [sp_Ueberweisung]
             <td>L3 Name D</td>
         </tr>
     </tbody>
-</table>
-
-
-<table>
-  <tr>
-    <td>One</td>
-    <td>Two</td>
-  </tr>
-  <tr>
-    <td colspan="2">Three</td>
-  </tr>
+    <tbody>
+        <tr>
+            <td rowspan=4>L1 Name</td>
+            <td rowspan=2>L2 Name A</td>
+            <td>L3 Name A</td>
+        </tr>
+        <tr>
+            <td>L3 Name B</td>
+        </tr>
+        <tr>
+            <td rowspan=2>L2 Name B</td>
+            <td>L3 Name C</td>
+        </tr>
+        <tr>
+            <td>L3 Name D</td>
+        </tr>
+    </tbody> 
 </table>
