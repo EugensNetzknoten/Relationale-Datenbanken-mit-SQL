@@ -11,7 +11,11 @@
 * Der Script `„005‐02‐EG‐CREATE‐Cursor_Gebuehren_Zinsen.sql“` welches sich noch in der Entwicklungsphase befindet, belastet alle nicht gesperrte Konten mit Gebühren oder Zinsen
   * Konten werden in einem Intervall (Tabelle [KontArt]) mit verschiedenen KostenArten und je nach Bonität belastet.
 
+## Datenbankdiagramm
+
 ![](images/diagramm.PNG)
+
+## Varianten der Überweisung für die Prozedur [sp_Ueberweisung]
 
 <table>
 <tr><th colspan="2">Varianten der Überweisung für die Prozedur [sp_Ueberweisung]</th></tr>
